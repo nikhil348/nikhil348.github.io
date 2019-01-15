@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<head>
+  
+    <title>Nikhil Sharma</title>
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+ 
+<script>
+$(document).ready(function(){
+  $(".t").click(function(){
+        $('#side').find('.selected').removeClass('selected');
+        $(this).addClass('selected');
+        $('#con').animate({
+            scrollLeft: 0
+        }, 650);
+  });
+});
+</script>
+ 
+<script>
+$(document).ready(function(){
+  $(".onet").click(function(){
+        $('#side').find('.selected').removeClass('selected');
+        $(this).addClass('selected');
+        $('#con').animate({
+            scrollLeft: 800
+        }, 650);
+  });
+});
+</script>
+ 
+<script>
+$(document).ready(function(){
+  $(".twot").click(function(){
+        $('#side').find('.selected').removeClass('selected');
+        $(this).addClass('selected');
+        $('#con').animate({
+            scrollLeft: 1600
+        }, 650);
+  });
+});
+</script>
+ 
+<script>
+$(document).ready(function(){
+  $(".threet").click(function(){
+        $('#side').find('.selected').removeClass('selected');
+        $(this).addClass('selected');
+        $('#con').animate({
+            scrollLeft: 2400
+        }, 650);
+  });
+});
+</script>
+ 
+<script>
+$(document).ready(function(){
+  $(".fourt").click(function(){
+        $('#side').find('.selected').removeClass('selected');
+        $(this).addClass('selected');
+        $('#con').animate({
+            scrollLeft: 3200
+        }, 650);
+  });
+});
+</script>
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ 
+<script src="http://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+ 
+<script>
+ 
+(function($){
+ 
+$(document).ready(function(){
+ 
+$("a[title]").style_my_tooltips({
+ 
+tip_follows_cursor:true,
+ 
+tip_delay_time:100,
+ 
+tip_fade_speed:300,
+ 
+attribute:"title"
+ 
+});
+ 
+});
+ 
+})(jQuery);
+ 
+</script>
+ 
+<link href='http://fonts.googleapis.com/css?family=Raleway:200,400' rel='stylesheet' type='text/css'>
+ 
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+ 
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+   
+    <style type="text/css">
+ 
+#s-m-t-tooltip {
+    max-width:150px;
+    padding:5px 8px;
+    margin:20px 14px 7px 10px;
+    background-color:#fff;
+    font-family:Calibri;
+    font-size:10px;
+    line-height:11px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    color:{color:link};
+    z-index:99999999;
+}
+   
+::-webkit-scrollbar {
+    height:0px;
+    width:0px;
+    background-color: transparent;
+}
+ 
+#con::-webkit-scrollbar {
+    height:0px;
+    width:0px;
+}
+   
+::-webkit-scrollbar-thumb {
+    background-color: transparent; /*change scrollbar color*/
+}
+ 
+::selection {
+    background-color: #000;
+    color: #fff;
+}
+   
+body {
+    background-color: #e5e5e5; /*change background color*/
+    font-family:arial;
+    font-size:11px;
+}
+ 
+     
+a {
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+    color: #000;
+}
+   
+a:hover {
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+    color: white;
+}
+ 
+.con {
+    top:0;
+    bottom:0;
+    left:0;
+    position:fixed;
+    width:1100px;
+    border-radius:3px;
+    height:550px;
+    right:0;
+    margin:auto;
+    background:#fff; /*change sidebar color*/
+}
+ 
+#side {
+    position:absolute;
+    left:0;
+    line-height:30px;
+    top:0;
+    bottom:0;
+}
+ 
+#side a, .title {
+    display:block;
+    font-family:'Lato', sans-serif;
+    font-size:20px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    color:#bbb; /*change sidebar links color*/
+}
+ 
+#side a:hover {
+    color:#777; /*change sidebar links hover color*/
+}
+ 
+#side a.selected {
+    color:#555; /*change sidebar selected links color*/
+}
+ 
+#con {
+    position:absolute;
+    height:550px;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    white-space:nowrap;
+    box-sizing:border-box;
+    width:800px;
+    right:0;
+}
+ 
+#one, #two, #three, #four, #five {
+    width:800px;
+    height:550px;
+    position:absolute;
+    color:#686868; /*change tabs text color*/
+    line-height:17px;
+    white-space:normal;
+    overflow:auto;
+    padding:50px;
+    font-family:'Lato', sans-serif;
+    letter-spacing:1px;
+    box-sizing:border-box;
+    background:#fafafa; /*change tabs background color*/
+    display:inline-block;
+}
+ 
+#one {
+    background:url(https://media.giphy.com/media/5Uuttvn46Vn15CyNgk/giphy.gif) no-repeat; /*change first tab image*/
+    background-size:cover;
+}
+ 
+#two {
+    left:800px;
+}
+ 
+#two p {
+    padding:15px;
+}
+ 
+#two a {
+    color:#ccc;
+}
+ 
+#two a:hover {
+    color:#777;
+}
+ 
+.title {
+    color:#666; /*change tabs title color*/
+    font-weight:900;
+    font-size:20px;
+    position:relative;
+    margin-bottom:40px;
+}
+ 
+.title:after {
+    content:' ';
+    height:2px;
+    position:absolute;
+    bottom:-7px;
+    background:#666; /*change tabs title border-bottom color*/
+    left:-3px;
+    width:25px;
+}
+ 
+.tags {
+    width:100%;
+    margin:15px 0px;
+    padding:15px;
+    box-sizing:border-box;
+    position:relative;
+    display:block;
+}
+ 
+.tagt {
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:12px;
+    margin-bottom:5px;
+    color:#666; /*change tags title color*/
+}
+ 
+.tags a {
+    padding-left:10px;
+    color:#bbb; /*change tags color*/
+    line-height:180%;
+    text-transform:uppercase;
+}
+ 
+.tags a:hover, #four b {
+    color:#777; /*change tags hover and faq question color*/
+}
+
+#f {
+	padding-left:0px;	
+	text-transform:none;
+}
+ 
+#three {
+    left:1600px;
+}
+ 
+#four {
+    left:2400px;
+}
+ 
+#five {
+    left:3200px;
+}
+ 
+</style>
+</head>
+<body>
+ 
+<div class="con">
+   
+    <div id="side">
+        <div style="display:table;height:100%;width:100px;margin-left:65px">
+            <div style="display:table-cell;height:100%;vertical-align:middle">
+               		 <a href="https://imgur.com/BuRFhaI"><img src="https://i.imgur.com/BuRFhaI.png"/></a>
+                <a href="javascript:;" class="t selected">Nikhil Sharma</a>
+                <a href="javascript:;" class="onet">About</a>
+                <a href="javascript:;" class="twot">Projects</a>
+                <a href="javascript:;" class="threet">Research</a>
+                
+               
+            </div>
+        </div>
+    </div>
+   
+    <div id="con">
+   
+        <div id="one"></div>
+       
+        <div id="two">
+            <div style="display:table;width:800px;height:450px;">
+                <div style="display:table-cell;height:100%;vertical-align:middle">
+                   
+                    <div class="title">About</div>
+                   
+                    <!--description--->
+                    <p>Hi! My name is <b> Nikhil Sharma </b> and I am an aspiring data scientist. I am in my third year at <a href= "http://www.ucla.edu/">UCLA</a>, where I study Statistics. <br/> <br/> 
+
+On campus, I am involved with <a href= "http://www.bruinsportsanalytics.com">Bruin Sports Analytics</a>, where I oversee all operations related to the Data Journalism team as <br/> the Blog Chair. My tasks include editing all articles, advising writers on their analyses and writing pieces of my own. I am also a <br/> member of our club's Research team. 
+
+
+
+ <br/> <br/> I am also currently working remotely with Dr. Shane Jensen, Associate Professor of Statistics at The Wharton School on a <br/> research project approaching the Ewing Theory in the NBA through statistical modeling. <a href= "http://www.espn.com/page2/s/simmons/010509.html">The Ewing Theory</a> is the idea that <br/> when a star athlete leaves a team, the team gets better.  <br/><br/> 
+
+
+This past summer, I was a Decision Sciences/Business Insights Intern at <a href= "https://www.cmimedia.com/">Communications Media, Inc.</a> in Philadelphia, PA. As an <br/> intern, I was mainly tasked with analyzing and predicting behavior of healthcare professionals for advertising purposes through various NLP and regression models.
+
+
+<br/><br/> In my free time, I enjoy watching NBA games and listening to hip-hop. I occasionally dabble in writing as well; I was once a <br/> <a href= "https://dailybruin.com/author/nikhil-sharma/">Contributor</a> for the Arts & Entertainment section of UCLA's main newspaper, <a href= "https://dailybruin.com">The Daily Bruin</a>. <br/><br/> 
+
+
+
+Feel free to contact me at my <a href= "mailto:nikhil348@g.ucla.edu">email</a>, or my <a href= "https://www.linkedin.com/in/nikhil348/">LinkedIn</a>. </p>
+
+
+
+                    <!---end description--->
+                   
+                </div>
+            </div>
+        </div>
+       
+       
+        <div id="three">
+                  
+<div style="display:table;width:800px;height:450px;">
+                <div style="display:table-cell;height:100%;vertical-align:middle">
+                   
+                    <div class="title">Projects</div>
+                   
+                    <!---to add new projects copy and paste from here-->
+                    
+			<div class="tags">
+                        <div class="tagt">Constructing My All-Time NBA Lineup Through K-Means Clustering</div>
+                        <a href="http://www.bruinsportsanalytics.com/kmeansallnba"/ >Article, Part 1</a>
+			<a href="https://github.com/nikhil348/K-Means-Article/blob/master/part_2.pdf"/ >Article, Part 2</a>
+                        <a href="https://github.com/nikhil348/K-Means-Article"/>Code</a>
+
+			<p> I wrote the first part of this double-header in November 2018, where I created my best all-time NBA starting lineup with the <br/> help of k-means clustering and random forest concepts in R. I made the visualizations in R using ggplot2 and Plotly. I wrote the <br/> second part in January 2019, where I addressed some criticisms of the first part. </p>
+                    </div>
+
+                    <!---to here--->
+
+
+
+                    
+			<div class="tags">
+                        <div class="tagt">Russell Westbrook: Point Guard or Shooting Guard?</div>
+                        <a href="http://www.bruinsportsanalytics.com/russpgorsg"/ >Article</a>
+                        <a href="https://github.com/nikhil348/Russell-Westbrook-Guard-Type"/>Code</a>
+
+			<p> I wrote this article in December 2018 with a fellow BSA member. We built a logistic regression model in R that classified <br/> guards as point guards or shooting guards. Then, we ran Russell Westbrook's stats through the model and thoroughly examined <br/> and explained the results. We made the visualizations in R using ggplot2 and base R.</p>
+                    </div>
+
+                    
+			<div class="tags">
+                        <div class="tagt">The 3-Point Revolution in the NBA</div>
+                        <a href="https://raw.githubusercontent.com/nikhil348/3-Point-Revolution/master/threepointers_new.gif"/ >GIF</a>
+                        <a href="https://github.com/nikhil348/3-Point-Revolution"/>Code</a>
+
+			<p> I created this visualization in September 2018 using the gganimate package in R that shows how dramatically NBA teams have <br/> increased their 3-point shooting throughout the decades. You might recognize this GIF from the front page of this website!   </p>
+                    </div>
+
+
+
+                    
+			<div class="tags">
+                        <div class="tagt">On Mark Twain and Jay-Z</div>
+                        <a href="https://youtu.be/HKSu6q-kb5M"/ >TEDx Talk</a>
+                       
+			<p> I delivered this TEDx Talk during my senior year of high school in May 2016, where I discussed the importance of basketball <br/> analytics in relation to a research project I had done earlier that year on analysis of NBA salaries.  </p>
+                    </div>
+
+
+
+
+			<div class="tags">
+                        <div class="tagt">Why LeBron James Left Cleveland</div>
+                        <a href="https://public.tableau.com/profile/nikhil.sharma5375#!/vizhome/cavs/TotalStats"/ >Dashboard</a>
+                       
+			<p> I made this dashboard in June 2018, when I was first learning how to use Tableau at my internship. These visuals clearly show <br/> how much LeBron had to do in the 2018 Playoffs to carry Cleveland to the Finals, and thus, the reason he left.  </p>
+                    </div>
+
+
+                    
+			<div class="tags">
+                        <div class="tagt">Blake Griffin: Sharpshooter or Bricklayer?</div>
+                        <a href="http://www.bruinsportsanalytics.com/blakegriffin"/ >Article</a>
+                        <a href="https://github.com/nikhil348/blake-griffin-graphs"/>Code</a>
+
+			<p> I wrote this article in March 2018, where I analyzed how Blake Griffin has trended towards becoming a perimeter shooter as <br/> his career has progressed. I made the main spider chart using the fmsb package in R, and the other charts using Plotly's online <br/> client. </p>
+                    </div>
+
+
+			<div class="tags">
+                        <div class="tagt">An In-Depth Comparison of the 06-07 Phoenix Suns and 17-18 Houston Rockets</div>
+                        <a href="http://www.bruinsportsanalytics.com/sunsrockets"/ >Article</a>
+
+			<p> I wrote this article in March 2018 with two fellow BSA members. We compared and contrasted the 2006-07 Phoenix Suns and <br/> 2017-18 Houston Rockets, as both teams were coached by Mike D'Antoni and had some fascinating similarities and differences. <br/> We made the visualizations in Plotly's online client.   </p>
+                    </div>
+
+
+
+			<div class="tags">
+                        <div class="tagt">Jay-Z’s “4:44″ marks rap mogul’s mature, reflective return to form</div>
+                        <a href="https://dailybruin.com/2017/10/18/second-take-jay-zs-444-marks-rap-moguls-mature-reflective-return-to-form/"/ >Article</a>
+
+			<p> Moving away from sports, I wrote this article in October 2017 when I was a contributor for the Daily Bruin. In it, I talked about <br/> how Jay-Z had been stumbling musically for a few years until the release of his 2017 album "4:44".  </p>
+                    </div>
+
+
+<p> For other statistical projects, check out my <a id = "f" href= "https://github.com/nikhil348">GitHub</a>. For my Daily Bruin articles, check out my <a id = "f" href= "https://dailybruin.com/author/nikhil-sharma/">author page</a>. </p>
+ 
+                   
+                </div>
+            </div>
+        </div>
+       
+
+       
+ 
+             
+        <div id="four">
+            <div style="display:table;width:800px;height:450px;">
+                <div style="display:table-cell;height:100%;vertical-align:middle">
+                   
+                    <div class="title">Research</div>
+                    <!---to add new research copy and paste from here-->
+                    <div class="tags">
+                        <div class="tagt">Analyzing the Ewing Theory (In Progress)</div>
+                        <a href="https://github.com/nikhil348/Ewing-Theory-Research">Code</a>
+
+			<p> I started this research project this past summer, and am remotely continuing it with Dr. Shane Jensen, Associate Professor of <br/> Statistics at The Wharton School. We are using random forest, decision tree, and logistic regression models to assess the <br/> validity of the <a id="f" href= "http://www.espn.com/page2/s/simmons/010509.html">Ewing Theory</a> in the NBA (the idea that when a star athlete leaves a team, the team gets better).  </p>
+                     
+                    </div>
+                    <!---to here--->
+
+                    <div class="tags">
+                        <div class="tagt">Predicting NBA Salaries (In Progress)</div>
+                        <a href="https://github.com/konnermacias/Free-Agents">Code</a>
+
+
+			<p> I began this project with three other members of the Bruin Sports Analytics Research team in the Spring 2018 quarter. Our first <br/> attempts at using linear regression to predict NBA salaries unfortunately fell flat; we are picking up this project again in the <br/> Winter 2019 quarter. Our initial attempts are outlined in <a id = "f" href= "http://www.bruinsportsanalytics.com/pred_nba_salaries_journey"> this article</a>.
+
+ </p>
+                     
+                    </div>
+
+
+                    <div class="tags">
+                        <div class="tagt">Understanding Methods of Measuring Vocabulary Ability Through Classical Test Theory, <br/> Factor Analysis and Item Response Theory
+</div>
+                        <a href="https://github.com/nikhil348/STAT-M154-Final">Code</a>
+			<a href="https://github.com/nikhil348/STAT-M154-Final/blob/master/final%20paper%20m154%20(1).pdf">Paper</a>
+
+
+			<p> I wrote this final paper for my "Measurement and its Applications" course taken in Fall 2018. It focuses on using Classical Test <br/> Theory, Factor Analysis and Item Response Theory concepts to shorten a scale intended to measure vocabulary strength. It was <br/> an interesting departure from what I normally do in terms of statistical studies.
+
+ </p>
+                     
+                    </div>
+
+
+                    <div class="tags">
+                        <div class="tagt">Using a Dashboard to Analyze NBA Salaries</div>
+			<a href="https://drive.google.com/file/d/1tN74TcHcitIpKloysEsXnCWPVEa_NHWi/view?usp=sharing">Paper</a>
+
+
+			<p> I completed this project my senior year of high school for my Research in Science class. Though it is quite rudimentary, I would <br/> credit this project with thrusting me into the worlds of sports analytics and data science. This project also served as the <br/> backbone for my <a id = "f" href= "https://youtu.be/HKSu6q-kb5M"> TEDx Talk</a>.
+
+ </p>
+                     
+                    </div>
+
+
+            
+                                
+                </div>
+            </div>
+        </div>
+
+
+
+
+       
+    </div><!---id con--->
+ 
+ </div><!--class con--->
+   
+</body>
+</html>
